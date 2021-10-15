@@ -1,0 +1,105 @@
+.navbar {
+  &__logo {
+    font-family: $old;
+    font-weight: $bold;
+  }
+
+  &__item {
+    font-family: $raleway;
+    font-weight: $bold;
+  }
+}
+
+.article {
+  &__title {
+    font-family: $old;
+    font-weight: $regular;
+    font-size: $xxx-large;
+  }
+
+  &__paragraph {
+    font-family: $raleway;
+    font-weight: $regular;
+    font-size: $medium;
+  }
+
+  &__button {
+    font-family: $raleway;
+    font-weight: $bold;
+    
+  }
+}
+
+.footer {
+  &__title {
+    font-family: $old;
+    font-weight: $regular;
+    font-size: $x-large;
+  }
+
+  &__label{
+    font-family: $old;
+    font-weight: $regular;
+    font-size: $large;
+  }
+
+
+  &__email {
+    font-family: $old;
+    font-weight: $regular;
+    font-size: $large;
+  }
+}
+
+.subscribe {
+  writing-mode: vertical-rl;
+
+  &__title {
+    font-family: $old;
+    font-weight: $bold;
+    font-size: $x-large;
+  }
+}
+
+@include respond-to($bp-md-tablet) {
+  .article {
+    &__title {
+      font-size: $xxx-large;
+      font-weight: $bold;
+    }
+
+    &__paragraph {
+      font-size: $medium;
+
+    }
+  }
+}
+
+.footer {
+  &__title {
+    font-size: $xx-large;
+  }
+
+  &__email {
+    font-size: $medium;
+  }
+}
+
+@include respond-to($bp-xl-desktop) {
+  .navbar {
+    &__logo {
+      font-size: xx-large;
+    }
+  }
+
+  .article {
+    &__title {
+      font-size: $xxx-large;
+      font-weight: $bold;
+    }
+
+    &__paragraph {
+      font-size: $large;
+    }
+  }
+}

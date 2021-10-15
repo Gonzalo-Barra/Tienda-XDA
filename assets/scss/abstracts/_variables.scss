@@ -1,0 +1,41 @@
+//Breakpoints
+
+$bp-sm-movil: 576px;
+$bp-md-tablet: 768px;
+$bp-lg-laptop: 992px;
+$bp-xl-desktop:1200px;
+
+//Colors
+
+$white:#FFF;
+$isabelline: #ECECEC;
+$light-gray: #D1D1D1;
+$smoky-black: #0C0910;
+$granite-gray: #646266;
+$quick-silver: #A6A5A8;
+
+//Font
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@400;700&family=Raleway:wght@400;700&display=swap');
+
+$old: "Old Standard TT", serif;
+$raleway: "Raleway", sans-serif;
+
+//Font weight
+
+$regular:400;
+$bold:700;
+
+//Font sizes
+
+$xxx-large: 50px;
+$xx-large: 30px;
+$x-large: 20px;
+$large: 18px;
+$medium: 16px;
+$small: 14px;
+$x-small: 12px;
+
+
+//image
+
+$background-image: url("/assets/images/imagen1.png")

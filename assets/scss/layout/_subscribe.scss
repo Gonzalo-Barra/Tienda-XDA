@@ -1,0 +1,12 @@
+.subscribe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__title{
+        writing-mode: vertical-rl;
+        text-align: center;
+        margin: 0;
+    }
+
+}

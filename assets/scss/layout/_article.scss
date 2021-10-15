@@ -1,0 +1,43 @@
+.article {
+    display: flex;
+    align-items: center;
+
+    &__text {
+        width: 80vw;
+        height: 40vh;
+        position: relative;
+        left: 4vw;
+    }
+
+    &__title {
+        text-transform: uppercase;
+    }
+
+    &__paragraph {
+        display: block;
+        color: $granite-gray;
+    }
+}
+
+@include respond-to($bp-md-tablet) {
+    .article {
+        padding: 30px 200px 30px 80px ;
+
+        &__title{
+        padding-top: 30px;
+
+        }
+
+    }
+}
+
+@include respond-to($bp-xl-desktop) {
+    .article {
+        &____text {
+            width: 30vw;
+            height: 47vh;
+            position: relative;
+            left: 5.6vw;
+        }
+    }
+}

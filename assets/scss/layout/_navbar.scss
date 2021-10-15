@@ -1,0 +1,39 @@
+.navbar {
+  width: 100vw;
+  padding-left: 0;
+  padding-right: 7vw;
+  position: relative;
+
+  &__logo {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $smoky-black;
+    color:$white; 
+    padding-top: 20px;
+  }
+
+  &__item {
+    color: $smoky-black;
+    padding-inline: 10px;
+  }
+
+  &__navbar-nav .nav-link {
+    padding-left: 5vw;
+  }
+}
+
+@include respond-to($bp-xl-desktop) {
+
+  .navbar {
+    &__logo {
+      width: 12vh;
+    }
+  }
+}
