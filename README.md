@@ -2,4 +2,4 @@
 
 Descripción
 =========
-Página web responsive hecha con HMTL, CSS y Bootstrap.
+Página web responsive hecha con HMTL, CSS y grid de Bootstrap.
